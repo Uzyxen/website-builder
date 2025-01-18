@@ -8,7 +8,9 @@
             </h2>
 
             <div class="mt-12 flex gap-5">
-                <button class="bg-primary p-3 w-52 text-lg">Start Building</button>
+                <button class="bg-primary w-52 text-lg">
+                    <NuxtLink to="/builder" class="p-3 block size-full">Start building</NuxtLink>
+                </button>
                 <button class="text-primary border-2 w-52 p-3">Get more info</button>
             </div>
         </div>
