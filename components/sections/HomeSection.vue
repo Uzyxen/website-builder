@@ -8,11 +8,26 @@
             </h2>
 
             <div class="mt-12 flex gap-5">
-                <button class="bg-primary w-52 text-lg">
-                    <NuxtLink to="/builder" class="p-3 block size-full">Start building</NuxtLink>
+                <button class="bg-primary p-3 w-52 text-lg" @click="startBuilding()">
+                    Start building
                 </button>
                 <button class="text-primary border-2 w-52 p-3">Get more info</button>
             </div>
         </div>
     </section>
 </template>
+
+<script setup>
+    import { v4 as uuidv4 } from 'uuid';
+
+    function startBuilding() {
+        const router = useRouter();
+
+        router.push({
+            name: 'websites-website',
+            params: {
+                website: uuidv4(),
+            },
+        });
+    }
+</script>

@@ -7,5 +7,5 @@
 <script setup>
     definePageMeta({
         layout: 'builder',
-    })
+    });
 </script>
