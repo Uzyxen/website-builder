@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-gradient-to-b from-secondary to-secondary-2 h-screen">
-    <Header />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 
 <style>
