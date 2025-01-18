@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1 class="text-secondary text-5xl">Hello World!</h1>
+  <div class="bg-gradient-to-b from-secondary to-secondary-2 h-screen">
+    <Header />
   </div>
 </template>
 
