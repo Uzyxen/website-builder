@@ -7,6 +7,7 @@
 <style>
   body {
     font-family: 'Roboto Condensed', serif;
+    overflow: hidden;
   }
 
   .layout-enter-active,
